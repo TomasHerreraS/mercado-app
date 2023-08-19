@@ -1,0 +1,41 @@
+.backgroundColor{
+  background-color: rgb(255, 236, 90);
+}
+
+.margin{
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+input{
+  border-radius: 8px;
+  border-style: solid;
+  border-color: rgb(255, 232, 61);
+}
+
+input:focus{
+  outline: none;
+}
+
+.topbar-decoration-text{
+  color: rgb(60, 60, 60);
+  text-decoration: none;
+}
+
+.sign-in-text-decoration{
+  cursor: pointer;
+}
+
+.cart{
+  padding-bottom: 3px;
+}
+
+.false-background{
+  background-color: rgb(255, 240, 126);
+}
+
+.back-arrow{
+  padding-bottom: 3px;
+  cursor: pointer;
+}

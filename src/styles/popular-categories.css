@@ -1,0 +1,37 @@
+.margin-popular-categories{
+  margin-top: 2rem;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.margin-carousel-popular-categories{
+  margin-bottom: 2rem;
+}
+
+.div-white-background{
+  background-color: rgb(255, 255, 255);
+}
+
+.div-white-background:hover{
+  background-color: rgb(125, 161, 211);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.div-width-height{
+  min-width: 11.7rem;
+  min-height: 11.7rem;
+  max-width: 11.7rem;
+  max-height: 11.7rem;
+}
+
+.margin-card-icon{
+  margin: 3px;
+}
+
+.center-icon{
+  margin-top: 15%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 5%;
+}

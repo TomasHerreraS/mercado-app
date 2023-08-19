@@ -1,0 +1,54 @@
+.margin-categories{
+  margin-top: 2rem;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.padding-dropdown-categories{
+  padding-top: 8px;
+}
+
+.categories-main-image-product-hover:hover{
+  cursor: pointer;
+}
+
+.categories-product-hover-shadow:hover{
+  -webkit-box-shadow: 0px 3px 8px 1px rgba(173,173,173,0.93);
+  -moz-box-shadow: 0px 3px 8px 1px rgba(173,173,173,0.93);
+  box-shadow: 0px 3px 8px 1px rgba(173,173,173,0.93);
+  cursor: pointer;
+}
+
+#picked{
+  background-color: rgb(236, 236, 236);
+}
+
+#picked:active{
+  background-color: white;
+  color: black;
+  text-decoration: dashed;
+}
+
+#cleaning:active{
+  background-color: white;
+  color: black;
+  text-decoration: dashed;
+}
+
+#home:active{
+  background-color: white;
+  color: black;
+  text-decoration: dashed;
+}
+
+#technology:active{
+  background-color: white;
+  color: black;
+  text-decoration: dashed;
+}
+
+#homeappliances:active{
+  background-color: white;
+  color: black;
+  text-decoration: dashed;
+}

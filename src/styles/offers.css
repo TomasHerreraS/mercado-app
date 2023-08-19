@@ -1,0 +1,85 @@
+.margin-offers{
+  margin-top: 2rem;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.padding-more-offers{
+  padding-top: 8px;
+}
+
+.color-more-offers{
+  color: rgb(0, 118, 222);
+  text-decoration: none;
+}
+
+.color-more-offers:hover{
+  color: rgb(0, 84, 158);
+  cursor: pointer;
+}
+
+.margin-offer-carousel-div{
+  margin-top: 10px;
+  margin-right: 6%;
+}
+
+.margin-offers-div{
+  margin-top: 2rem;
+  margin-right: 6%;
+}
+
+.margin-card-offers{
+  margin-top: 20px;
+  margin-bottom: 2rem;
+}
+
+.card-hover-shadow:hover{
+  -webkit-box-shadow: 0px 3px 8px 1px rgba(173,173,173,0.93);
+  -moz-box-shadow: 0px 3px 8px 1px rgba(173,173,173,0.93);
+  box-shadow: 0px 3px 8px 1px rgba(173,173,173,0.93);
+  cursor: pointer;
+}
+
+.display-fav-card:hover .card-add-favorite-icon{
+  display: block;
+  position: absolute;
+  right: 5px;
+  top: 3px;
+}
+
+.card-add-favorite-icon{
+  display: none;
+  color: rgb(0, 110, 235);
+}
+
+.card-add-favorite-icon:hover{
+  color: rgb(0, 95, 203);
+}
+
+.display-original-price-card:hover .card-original-price{
+  display: block;
+}
+
+.card-original-price{
+  margin: 0px;
+  display: none;
+  text-decoration-line: line-through;
+  color: rgb(155, 155, 155);
+  font-size: small;
+}
+
+.card-discount-text{
+  padding-top: 3px;
+  font-size: small;
+  color: rgb(20, 170, 20);
+}
+
+.card-offers-interest-shipping-text{
+  font-size: small;
+  color: rgb(20, 170, 20);
+}
+
+.card-offers-text{
+  font-size: 14px;
+  color: rgb(68, 68, 68);
+}
