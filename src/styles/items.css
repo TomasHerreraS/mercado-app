@@ -1,0 +1,32 @@
+.div-style{
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+}
+
+.div-margin{
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-right: 2rem;
+}
+
+.div-col{
+  columns: 1rem;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(217, 217, 217);
+  border-width: 1px;
+  padding-top: 2px;
+}
+
+.center-vertically{
+  margin-top: 10px;
+}
+
+.center-vertically-trash{
+  margin-top: 15px;
+}
+
+.pointer{
+  margin-bottom: 4px;
+  cursor: pointer;
+}

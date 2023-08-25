@@ -29,6 +29,7 @@ input:focus{
 
 .cart{
   padding-bottom: 3px;
+  cursor: pointer;
 }
 
 .false-background{

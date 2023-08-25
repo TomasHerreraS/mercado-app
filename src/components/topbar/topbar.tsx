@@ -51,7 +51,9 @@ const Topbar = () => {
         Mis compras
       </Col> */}
       <Col md={1}>
-        <BsCart2 className='cart' size={22}/>
+        <BsCart2 className='cart' size={22} onClick={()=> {
+          window.location.replace('/carro')
+        }}/>
       </Col>
     </Row>
   )
