@@ -10,7 +10,7 @@ const Offers = () => {
           <h3>Ofertas</h3>
         </Col>
         <Col className="padding-more-offers">
-          <a className="color-more-offers" href="/all-offers">Ver más</a>
+          <a className="color-more-offers" href="/ofertas">Ver más</a>
         </Col>
       </Row>
       <CardOffers/>

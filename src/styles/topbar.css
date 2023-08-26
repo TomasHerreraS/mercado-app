@@ -2,6 +2,10 @@
   background-color: rgb(255, 236, 90);
 }
 
+.column{
+  columns: 10px;
+}
+
 .margin{
   padding-left: 10px;
   padding-top: 3px;
@@ -23,8 +27,12 @@ input:focus{
   text-decoration: none;
 }
 
-.sign-in-text-decoration{
+.cursor-pointer{
   cursor: pointer;
+}
+
+.sign-in-margin{
+  margin-top: 3px;
 }
 
 .cart{

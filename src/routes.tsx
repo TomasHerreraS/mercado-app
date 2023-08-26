@@ -9,7 +9,7 @@ const RouteByComponent = () => {
   return (
     <Routes>
       <Route path='/' element={<MainPage/>}/>
-      <Route path='/all-offers' element={<AllOffersPage/>}/>
+      <Route path='/ofertas' element={<AllOffersPage/>}/>
       <Route path='/crear-cuenta' element={<CreateAccountPage/>}/>
       <Route path='/carro' element={<CartPage/>}/>
     </Routes>

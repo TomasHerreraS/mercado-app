@@ -56,13 +56,12 @@
   color: rgb(0, 95, 203);
 }
 
-.display-original-price-card:hover .card-original-price{
+.display-original-price-card:hover{
   display: block;
 }
 
 .card-original-price{
   margin: 0px;
-  display: none;
   text-decoration-line: line-through;
   color: rgb(155, 155, 155);
   font-size: small;

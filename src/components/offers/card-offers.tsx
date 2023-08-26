@@ -29,180 +29,182 @@ const CardOffers = () => {
   };
 
   return(
-    <Carousel
-      className="card-offer-carousel-margin"
-      draggable={false}
-      removeArrowOnDeviceType={["tablet", "mobile"]}
-      responsive={responsive}>
-      <Card className="margin-card-offers card-hover-shadow display-fav-card display-original-price-card"
-        style={{ width: '13rem' }}>
-        <AiOutlineHeart className="card-add-favorite-icon" size='20px'/>
-        <Card.Img src={coffee} height='100%' />
-        <Card.Body>
-          <Card.Text>
-            <Row>
-              <Col md={12}>
-                <p className="card-original-price">$ 35.430</p>
-              </Col>
-              <Col md={6}>
-                <h5>$ 22.530</h5>
-              </Col>
-              <Col md={6}>
-                <p className="card-discount-text">24% OFF</p>
-              </Col>
-            </Row>
-            <p className="card-offers-interest-shipping-text">6x $ 5.912 sin interés</p>
-            {/* TODO: Esto acá abajo dependerá del precio, si es mayor a 25k el envío es gratis */}
-            <p className="card-offers-interest-shipping-text">Envío gratis</p>
-            <p className="card-offers-text">Café nescafé Tradición 400g x4</p>
-          </Card.Text>
-        </Card.Body>
-      </Card>
-      <Card className="margin-card-offers card-hover-shadow display-fav-card display-original-price-card"
-        style={{ width: '13rem' }}>
-        <AiOutlineHeart className="card-add-favorite-icon" size='20px'/>
-        <Card.Img src={coffee} height='100%' />
-        <Card.Body>
-          <Card.Text>
-            <Row>
-              <Col md={12}>
-                <p className="card-original-price">$ 35.430</p>
-              </Col>
-              <Col md={6}>
-                <h5>$ 22.530</h5>
-              </Col>
-              <Col md={6}>
-                <p className="card-discount-text">24% OFF</p>
-              </Col>
-            </Row>
-            <p className="card-offers-interest-shipping-text">6x $ 5.912 sin interés</p>
-            {/* TODO: Esto acá abajo dependerá del precio, si es mayor a 25k el envío es gratis */}
-            <p className="card-offers-interest-shipping-text">Envío gratis</p>
-            <p className="card-offers-text">Café nescafé Tradición 400g x4</p>
-          </Card.Text>
-        </Card.Body>
-      </Card>
-      <Card className="margin-card-offers card-hover-shadow display-fav-card display-original-price-card"
-        style={{ width: '13rem' }}>
-        <AiOutlineHeart className="card-add-favorite-icon" size='20px'/>
-        <Card.Img src={coffee} height='100%' />
-        <Card.Body>
-          <Card.Text>
-            <Row>
-              <Col md={12}>
-                <p className="card-original-price">$ 35.430</p>
-              </Col>
-              <Col md={6}>
-                <h5>$ 22.530</h5>
-              </Col>
-              <Col md={6}>
-                <p className="card-discount-text">24% OFF</p>
-              </Col>
-            </Row>
-            <p className="card-offers-interest-shipping-text">6x $ 5.912 sin interés</p>
-            {/* TODO: Esto acá abajo dependerá del precio, si es mayor a 25k el envío es gratis */}
-            <p className="card-offers-interest-shipping-text">Envío gratis</p>
-            <p className="card-offers-text">Café nescafé Tradición 400g x4</p>
-          </Card.Text>
-        </Card.Body>
-      </Card>
-      <Card className="margin-card-offers card-hover-shadow display-fav-card display-original-price-card"
-        style={{ width: '13rem' }}>
-        <AiOutlineHeart className="card-add-favorite-icon" size='20px'/>
-        <Card.Img src={coffee} height='100%' />
-        <Card.Body>
-          <Card.Text>
-            <Row>
-              <Col md={12}>
-                <p className="card-original-price">$ 35.430</p>
-              </Col>
-              <Col md={6}>
-                <h5>$ 22.530</h5>
-              </Col>
-              <Col md={6}>
-                <p className="card-discount-text">24% OFF</p>
-              </Col>
-            </Row>
-            <p className="card-offers-interest-shipping-text">6x $ 5.912 sin interés</p>
-            {/* TODO: Esto acá abajo dependerá del precio, si es mayor a 25k el envío es gratis */}
-            <p className="card-offers-interest-shipping-text">Envío gratis</p>
-            <p className="card-offers-text">Café nescafé Tradición 400g x4</p>
-          </Card.Text>
-        </Card.Body>
-      </Card>
-      <Card className="margin-card-offers card-hover-shadow display-fav-card display-original-price-card"
-        style={{ width: '13rem' }}>
-        <AiOutlineHeart className="card-add-favorite-icon" size='20px'/>
-        <Card.Img src={coffee} height='100%' />
-        <Card.Body>
-          <Card.Text>
-            <Row>
-              <Col md={12}>
-                <p className="card-original-price">$ 35.430</p>
-              </Col>
-              <Col md={6}>
-                <h5>$ 22.530</h5>
-              </Col>
-              <Col md={6}>
-                <p className="card-discount-text">24% OFF</p>
-              </Col>
-            </Row>
-            <p className="card-offers-interest-shipping-text">6x $ 5.912 sin interés</p>
-            {/* TODO: Esto acá abajo dependerá del precio, si es mayor a 25k el envío es gratis */}
-            <p className="card-offers-interest-shipping-text">Envío gratis</p>
-            <p className="card-offers-text">Café nescafé Tradición 400g x4</p>
-          </Card.Text>
-        </Card.Body>
-      </Card>
-      <Card className="margin-card-offers card-hover-shadow display-fav-card display-original-price-card"
-        style={{ width: '13rem' }}>
-        <AiOutlineHeart className="card-add-favorite-icon" size='20px'/>
-        <Card.Img src={coffee} height='100%' />
-        <Card.Body>
-          <Card.Text>
-            <Row>
-              <Col md={12}>
-                <p className="card-original-price">$ 35.430</p>
-              </Col>
-              <Col md={6}>
-                <h5>$ 22.530</h5>
-              </Col>
-              <Col md={6}>
-                <p className="card-discount-text">24% OFF</p>
-              </Col>
-            </Row>
-            <p className="card-offers-interest-shipping-text">6x $ 5.912 sin interés</p>
-            {/* TODO: Esto acá abajo dependerá del precio, si es mayor a 25k el envío es gratis */}
-            <p className="card-offers-interest-shipping-text">Envío gratis</p>
-            <p className="card-offers-text">Café nescafé Tradición 400g x4</p>
-          </Card.Text>
-        </Card.Body>
-      </Card>
-      <Card className="margin-card-offers card-hover-shadow display-fav-card display-original-price-card"
-        style={{ width: '13rem' }}>
-        <AiOutlineHeart className="card-add-favorite-icon" size='20px'/>
-        <Card.Img src={coffee} height='100%' />
-        <Card.Body>
-          <Card.Text>
-            <Row>
-              <Col md={12}>
-                <p className="card-original-price">$ 35.430</p>
-              </Col>
-              <Col md={6}>
-                <h5>$ 22.530</h5>
-              </Col>
-              <Col md={6}>
-                <p className="card-discount-text">24% OFF</p>
-              </Col>
-            </Row>
-            <p className="card-offers-interest-shipping-text">6x $ 5.912 sin interés</p>
-            {/* TODO: Esto acá abajo dependerá del precio, si es mayor a 25k el envío es gratis */}
-            <p className="card-offers-interest-shipping-text">Envío gratis</p>
-            <p className="card-offers-text">Café nescafé Tradición 400g x4</p>
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Carousel>
+    <div className="margin-div-carousel-offer">
+      <Carousel
+        className="card-offer-carousel-margin"
+        draggable={false}
+        removeArrowOnDeviceType={["tablet", "mobile"]}
+        responsive={responsive}>
+        <Card className="margin-card-offers card-hover-shadow display-fav-card display-original-price-card"
+          style={{ width: '13rem' }}>
+          <AiOutlineHeart className="card-add-favorite-icon" size='20px'/>
+          <Card.Img src={coffee} height='100%' />
+          <Card.Body>
+            <Card.Text>
+              <Row>
+                <Col md={12}>
+                  <p className="card-original-price">$ 35.430</p>
+                </Col>
+                <Col md={6}>
+                  <h5>$ 22.530</h5>
+                </Col>
+                <Col md={6}>
+                  <p className="card-discount-text">24% OFF</p>
+                </Col>
+              </Row>
+              <p className="card-offers-interest-shipping-text">6x $ 5.912 sin interés</p>
+              {/* TODO: Esto acá abajo dependerá del precio, si es mayor a 25k el envío es gratis */}
+              <p className="card-offers-interest-shipping-text">Envío gratis</p>
+              <p className="card-offers-text">Café nescafé Tradición 400g x4</p>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="margin-card-offers card-hover-shadow display-fav-card display-original-price-card"
+          style={{ width: '13rem' }}>
+          <AiOutlineHeart className="card-add-favorite-icon" size='20px'/>
+          <Card.Img src={coffee} height='100%' />
+          <Card.Body>
+            <Card.Text>
+              <Row>
+                <Col md={12}>
+                  <p className="card-original-price">$ 35.430</p>
+                </Col>
+                <Col md={6}>
+                  <h5>$ 22.530</h5>
+                </Col>
+                <Col md={6}>
+                  <p className="card-discount-text">24% OFF</p>
+                </Col>
+              </Row>
+              <p className="card-offers-interest-shipping-text">6x $ 5.912 sin interés</p>
+              {/* TODO: Esto acá abajo dependerá del precio, si es mayor a 25k el envío es gratis */}
+              <p className="card-offers-interest-shipping-text">Envío gratis</p>
+              <p className="card-offers-text">Café nescafé Tradición 400g x4</p>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="margin-card-offers card-hover-shadow display-fav-card display-original-price-card"
+          style={{ width: '13rem' }}>
+          <AiOutlineHeart className="card-add-favorite-icon" size='20px'/>
+          <Card.Img src={coffee} height='100%' />
+          <Card.Body>
+            <Card.Text>
+              <Row>
+                <Col md={12}>
+                  <p className="card-original-price">$ 35.430</p>
+                </Col>
+                <Col md={6}>
+                  <h5>$ 22.530</h5>
+                </Col>
+                <Col md={6}>
+                  <p className="card-discount-text">24% OFF</p>
+                </Col>
+              </Row>
+              <p className="card-offers-interest-shipping-text">6x $ 5.912 sin interés</p>
+              {/* TODO: Esto acá abajo dependerá del precio, si es mayor a 25k el envío es gratis */}
+              <p className="card-offers-interest-shipping-text">Envío gratis</p>
+              <p className="card-offers-text">Café nescafé Tradición 400g x4</p>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="margin-card-offers card-hover-shadow display-fav-card display-original-price-card"
+          style={{ width: '13rem' }}>
+          <AiOutlineHeart className="card-add-favorite-icon" size='20px'/>
+          <Card.Img src={coffee} height='100%' />
+          <Card.Body>
+            <Card.Text>
+              <Row>
+                <Col md={12}>
+                  <p className="card-original-price">$ 35.430</p>
+                </Col>
+                <Col md={6}>
+                  <h5>$ 22.530</h5>
+                </Col>
+                <Col md={6}>
+                  <p className="card-discount-text">24% OFF</p>
+                </Col>
+              </Row>
+              <p className="card-offers-interest-shipping-text">6x $ 5.912 sin interés</p>
+              {/* TODO: Esto acá abajo dependerá del precio, si es mayor a 25k el envío es gratis */}
+              <p className="card-offers-interest-shipping-text">Envío gratis</p>
+              <p className="card-offers-text">Café nescafé Tradición 400g x4</p>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="margin-card-offers card-hover-shadow display-fav-card display-original-price-card"
+          style={{ width: '13rem' }}>
+          <AiOutlineHeart className="card-add-favorite-icon" size='20px'/>
+          <Card.Img src={coffee} height='100%' />
+          <Card.Body>
+            <Card.Text>
+              <Row>
+                <Col md={12}>
+                  <p className="card-original-price">$ 35.430</p>
+                </Col>
+                <Col md={6}>
+                  <h5>$ 22.530</h5>
+                </Col>
+                <Col md={6}>
+                  <p className="card-discount-text">24% OFF</p>
+                </Col>
+              </Row>
+              <p className="card-offers-interest-shipping-text">6x $ 5.912 sin interés</p>
+              {/* TODO: Esto acá abajo dependerá del precio, si es mayor a 25k el envío es gratis */}
+              <p className="card-offers-interest-shipping-text">Envío gratis</p>
+              <p className="card-offers-text">Café nescafé Tradición 400g x4</p>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="margin-card-offers card-hover-shadow display-fav-card display-original-price-card"
+          style={{ width: '13rem' }}>
+          <AiOutlineHeart className="card-add-favorite-icon" size='20px'/>
+          <Card.Img src={coffee} height='100%' />
+          <Card.Body>
+            <Card.Text>
+              <Row>
+                <Col md={12}>
+                  <p className="card-original-price">$ 35.430</p>
+                </Col>
+                <Col md={6}>
+                  <h5>$ 22.530</h5>
+                </Col>
+                <Col md={6}>
+                  <p className="card-discount-text">24% OFF</p>
+                </Col>
+              </Row>
+              <p className="card-offers-interest-shipping-text">6x $ 5.912 sin interés</p>
+              {/* TODO: Esto acá abajo dependerá del precio, si es mayor a 25k el envío es gratis */}
+              <p className="card-offers-interest-shipping-text">Envío gratis</p>
+              <p className="card-offers-text">Café nescafé Tradición 400g x4</p>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="margin-card-offers card-hover-shadow display-fav-card display-original-price-card"
+          style={{ width: '13rem' }}>
+          <AiOutlineHeart className="card-add-favorite-icon" size='20px'/>
+          <Card.Img src={coffee} height='100%' />
+          <Card.Body>
+            <Card.Text>
+              <Row>
+                <Col md={12}>
+                  <p className="card-original-price">$ 35.430</p>
+                </Col>
+                <Col md={6}>
+                  <h5>$ 22.530</h5>
+                </Col>
+                <Col md={6}>
+                  <p className="card-discount-text">24% OFF</p>
+                </Col>
+              </Row>
+              <p className="card-offers-interest-shipping-text">6x $ 5.912 sin interés</p>
+              {/* TODO: Esto acá abajo dependerá del precio, si es mayor a 25k el envío es gratis */}
+              <p className="card-offers-interest-shipping-text">Envío gratis</p>
+              <p className="card-offers-text">Café nescafé Tradición 400g x4</p>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Carousel>
+    </div>
   )
 }
 
